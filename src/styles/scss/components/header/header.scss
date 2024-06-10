@@ -1,0 +1,38 @@
+.header{
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.header__nav{
+  display: flex;
+  gap: 42px;
+  align-items: center;
+}
+
+.logo{
+  width: 25px;
+  height: 25px;
+  background-color: #5E81FE;
+  border-radius: 50%;
+}
+
+.header__nav nav{
+  display: flex;
+  gap: 42px;
+}
+
+.header__nav nav a{
+  color: #697CA6;
+}
+
+.header__contacts{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+}
+.header__contacts i{
+  color: #697CA6;
+}

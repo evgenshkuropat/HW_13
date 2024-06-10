@@ -1,0 +1,72 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+.container {
+  max-width: map-get($content-widths,"xl");
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn{
+  width: 113px;
+  height: 43px;
+  font-size: map-get($font-sizes, "sm");
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn_autosize{
+  padding: 13px 15px;
+  width: auto;
+  height: 43px;
+  font-size: map-get($font-sizes, "sm");
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_blue{
+  background-color:#D2E1FF ;
+  color: #3A79FF;
+  cursor: pointer;
+}
+.btn_blue_white-banner-ten{
+  background-color: #4C85FF;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 150px;
+  height: 59px;
+  cursor: pointer;
+}
+
+.btn_blue_white{
+  background-color: #4C85FF;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.btn_white_blue{
+  background-color: #FFFFFF ;
+  color: #4C85FF;
+  cursor: pointer;
+}
+
+.btn_red{
+  background-color: #FFD7D7;
+  color: #D43F3F;
+  cursor: pointer;
+}
+
+.btn_grey{
+  background-color: transparent;
+  color: #aeaebb;
+  border: 1px solid #ADB4D2;
+  cursor: pointer;
+}
+.btn_transparent{
+  background-color: transparent;
+  color: #C7D3FF;
+  border: 1px solid #ADB4D2;
+  cursor: pointer;
+}
+
+.header .active {
+  color:#3A79FF ;
+}
