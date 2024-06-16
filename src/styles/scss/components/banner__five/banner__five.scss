@@ -1,0 +1,46 @@
+.banner__five{
+  display: flex;
+}
+.banner__five-left{
+  width: 50%;
+  padding: 66px 90px;
+  background-color: map-get($font-color,"blue-medium");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 24px;
+
+}
+.banner__five-left h2{
+  font-size: map-get($font-sizes,"xxxl");
+  color: map-get($font-color,"white");
+}
+.banner__five-left p{
+  width: 45%;
+  font-size: map-get($font-sizes,"lg");
+  color: map-get($font-color,"white");
+  line-height: 22px;
+}
+
+.banner__five-right{
+  width: 50%;
+  padding: 66px 90px;
+  background-color: #D8E3FE;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 24px;
+
+}
+.banner__five-right h2{
+  font-size: map-get($font-sizes,"xxxl");
+  color: map-get($font-color,"blue-medium");
+}
+.banner__five-right p{
+  width: 45%;
+  font-size: map-get($font-sizes,"lg");
+  color: map-get($font-color,"blue-medium");
+  line-height: 22px;
+}

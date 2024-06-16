@@ -363,4 +363,54 @@ body {
   color: #ADB3CB;
 }
 
+.banner__five {
+  display: flex;
+}
+
+.banner__five-left {
+  width: 50%;
+  padding: 66px 90px;
+  background-color: #4074F8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 24px;
+}
+
+.banner__five-left h2 {
+  font-size: 48px;
+  color: white;
+}
+
+.banner__five-left p {
+  width: 45%;
+  font-size: 18px;
+  color: white;
+  line-height: 22px;
+}
+
+.banner__five-right {
+  width: 50%;
+  padding: 66px 90px;
+  background-color: #D8E3FE;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 24px;
+}
+
+.banner__five-right h2 {
+  font-size: 48px;
+  color: #4074F8;
+}
+
+.banner__five-right p {
+  width: 45%;
+  font-size: 18px;
+  color: #4074F8;
+  line-height: 22px;
+}
+
 /*# sourceMappingURL=home-page.css.map */
