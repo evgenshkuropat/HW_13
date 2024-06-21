@@ -1,0 +1,52 @@
+.banner__seven{
+  background-color: #F6F9FF;
+  padding: 110px 240px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+
+}
+.banner__seven-title{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.banner__seven-title h3{
+  font-size: map-get($font-sizes,"xs");
+  color: map-get($font-color,"blue");
+}
+
+.banner__seven-title h2{
+  font-size: map-get($font-sizes,"xxl");
+  color: map-get($font-color,"blue");
+}
+.banner__seven-title p{
+  font-size: map-get($font-sizes,"sm");
+  line-height: 19px;
+  color: map-get($font-color,"grey");
+}
+
+.banner__seven-description p{
+  width: 50%;
+  font-size: map-get($font-sizes,"sm");
+  line-height: 19px;
+  color: map-get($font-color,"grey");
+}
+
+
+.banner__seven-description{
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  /*width: 430px;
+  height: 300px;*/
+  background-color: white;
+
+}
+.banner__seven-description img{
+  position: absolute;
+  left: 200px;
+  bottom: -30px;
+}
